@@ -1,8 +1,10 @@
 .navbar-brand {
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .navbar-light .navbar-nav .nav-link.active-link {
     color: var(--primary-color);
-    font-weight: bolder;
+    font-weight: bold;
+    text-decoration: underline;
 }
