@@ -1,3 +1,6 @@
+
+<!-- banner -->
+
 <div class="banner">
     <div class="content">
     <h1 class="mb-5">Fresh cooked food <span><br> at your Doorstep</span></h1>
@@ -5,22 +8,24 @@
     </div>
 </div>
 
-<div class="step">
-    <h1 class="mt-5 mb-5 text-center">Steps to get <span>fresh food</span> </h1>
+<!-- step -->
+
+<div class="container mt-5 mb-5">
+    <h1 class="mt-5 mb-5 text-center">Steps to get <span class="highlight">fresh food</span> </h1>
     <div class="row">
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-4">
             <div class="stepBox mb-5">
                 <h1 >1</h1>
                 <p>Select the food</p>
             </div>
         </div>
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-4">
             <div class="stepBox  mb-5">
                 <h1 >2</h1>
                 <p>Select the food</p>
             </div>
         </div>
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-4">
             <div class="stepBox  mb-5">
                 <h1 >3</h1>
                 <p>Select the food</p>
@@ -29,10 +34,19 @@
     </div>
 </div>
 
-<div class="container">
+<!-- Customer's favourite food -->
+
+<div class="container mb-5">
+    <h1 class="text-center">Customer's <span class="highlight">favourite Food </span></h1>
     <div class="row">
-        <div class="col-lg-4">
-            
+        <div class="col-lg-4 mt-3" *ngFor="let fd of foodData ; let i=index" >
+            <div class="foodbox" *ngIf="i<=2">        
+                <img src="{{fd.foodImg}}" alt="foodimg"/>
+                <h1 class="mt-3 mb-3">{{fd.foodName}}</h1>
+                <p>{{fd.foodPrice | currency:'INR'}}</p>    
+                <a routerLink="">Buy Now</a> 
+            </div>
+                
         </div>
     </div>
 </div>

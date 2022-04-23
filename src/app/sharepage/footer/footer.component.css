@@ -4,9 +4,7 @@
     position: sticky;
     background-color: #000;
     color: #fff;
-    top: 100%;
-    
-    
+    top: 100%;   
 }
 
 h3
@@ -35,3 +33,7 @@ a:hover
     color: var(--primary-color);
 }
 
+.row i 
+{
+    padding: 10px;
+}
