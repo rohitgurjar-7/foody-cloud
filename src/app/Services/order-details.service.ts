@@ -48,6 +48,111 @@ export class OrderDetailsService {
       foodDetails:"Oreo ice cream",
       foodPrice:219,
       foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:7,
+      foodName:"F",
+      foodDetails:"Oreo ice cream",
+      foodPrice:50,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:8,
+      foodName:"H",
+      foodDetails:"Oreo ice cream",
+      foodPrice:80,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:9,
+      foodName:"Oreo Cheesecake Ice Cream",
+      foodDetails:"Oreo ice cream",
+      foodPrice:100,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:7,
+      foodName:"F",
+      foodDetails:"Oreo ice cream",
+      foodPrice:50,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:8,
+      foodName:"H",
+      foodDetails:"Oreo ice cream",
+      foodPrice:80,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:9,
+      foodName:"Oreo Cheesecake Ice Cream",
+      foodDetails:"Oreo ice cream",
+      foodPrice:100,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:7,
+      foodName:"F",
+      foodDetails:"Oreo ice cream",
+      foodPrice:50,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:8,
+      foodName:"H",
+      foodDetails:"Oreo ice cream",
+      foodPrice:80,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:9,
+      foodName:"Oreo Cheesecake Ice Cream",
+      foodDetails:"Oreo ice cream",
+      foodPrice:100,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:7,
+      foodName:"F",
+      foodDetails:"Oreo ice cream",
+      foodPrice:50,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:8,
+      foodName:"H",
+      foodDetails:"Oreo ice cream",
+      foodPrice:80,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:9,
+      foodName:"Oreo Cheesecake Ice Cream",
+      foodDetails:"Oreo ice cream",
+      foodPrice:100,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:7,
+      foodName:"F",
+      foodDetails:"Oreo ice cream",
+      foodPrice:50,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:8,
+      foodName:"H",
+      foodDetails:"Oreo ice cream",
+      foodPrice:80,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+    },
+    {
+      id:9,
+      foodName:"Oreo Cheesecake Ice Cream",
+      foodDetails:"Oreo ice cream",
+      foodPrice:100,
+      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
     }
   ]
 }

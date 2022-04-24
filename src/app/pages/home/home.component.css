@@ -1,3 +1,129 @@
+/* COROUSAL */
+
+
+img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.slogan_1 {
+    position: absolute;
+    left: 15%;
+    bottom: 50%;
+}
+
+.slogan_1 h1
+{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.slogan_1 a
+{
+    text-decoration: none;  
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.slogan_1 a:hover
+{
+    color: var(--primary-color);
+    padding: 20px 40px;
+}
+
+.slogan_2 {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+
+.slogan_2 h1
+{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.slogan_2 a
+{
+    text-decoration: none;  
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.slogan_2 a:hover
+{
+    color: var(--primary-color);
+    padding: 20px 40px;
+}
+
+
+
+.slogan_3 {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+
+.slogan_3 h1
+{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.slogan_3 a
+{
+    text-decoration: none;  
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 40px;
+    
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.slogan_3 a:hover
+{
+    color: var(--primary-color);
+    padding: 20px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OLD */
+
 .banner
 {
     background: url('../../../assets/img/banner.jpeg');
