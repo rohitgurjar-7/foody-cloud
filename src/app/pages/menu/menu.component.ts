@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
 import { OrderDetailsService } from 'src/app/Services/order-details.service';
+import { foodModel } from './food';
 
 @Component({
   selector: 'app-menu',
@@ -8,11 +10,22 @@ import { OrderDetailsService } from 'src/app/Services/order-details.service';
 })
 export class MenuComponent implements OnInit {
 
-  constructor(private service:OrderDetailsService) { }
+foodModelObj: foodModel = new foodModel();
 foodData:any;
+  constructor(private api:OrderDetailsService) { }
+
   ngOnInit(): void {
-    this.foodData=this.service.foodDetails;
+    
+    
+   this.getAllFood();
+   
   }
   
+  getAllFood(){
+    this.api.getfood("http://localhost:4200/menu/")
+    .subscribe(res=>{
+      this.foodData=res;
+    })
+  }
 
 }
